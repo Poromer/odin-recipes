@@ -1,8 +1,54 @@
 *{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
     font-family: "Helvetica", "Arial";
+    width: 720px;
+    margin: 0 auto;
+    background-color: rgb(240, 240, 221);
+    color: rgb(77, 77, 77);
+}
+
+a:visited { /*Why is this not working? Cascade Effect, Priority? Color works but text deco still shows underline*/
+    text-decoration: line-through;
+    color: rgb(247, 64, 64);
+}
+
+a:hover {
+    text-decoration: none;
 }
 
 img{
     height: 30vh;
     width: auto;
+}
+
+header{
+    margin-bottom: 25px;
+}
+
+header h1{
+    font-size: 64px;
+    text-align: center;
+    margin: 70px auto;
+}
+
+header p{
+    line-height: 1.4;
+}
+
+#listRecipe{
+    font-size: 24px;
+    border: 3px solid #0b70c2;
+    height: 50vh;
+    padding-bottom: 30px;
+}
+
+#listRecipe li{
+    padding: 10px 20px;
+    list-style: none;
+    border-bottom: 2px solid #0b70c2;
+    
 }
